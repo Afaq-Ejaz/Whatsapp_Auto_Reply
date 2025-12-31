@@ -11,8 +11,6 @@ cop()
 
 client = Groq(
 
-    api_key="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"
-
     )
 
 response = client.chat.completions.create(
