@@ -31,7 +31,8 @@ def pasting():
 def reply_back():
     
     pg.click(610 , 701) 
-    ppc.paste()
+    
+    pg.hotkey('ctrl', 'v') 
 
     time.sleep(0.5)
 
